@@ -1,3 +1,43 @@
+
+# BIKECITY
+
+Sistema automatizado para la gestión de reservas y renta de bicicletas urbanas.
+
+## Descripción
+
+Este proyecto resuelve los problemas de reservas duplicadas, cobros incorrectos y falta de control sobre bicicletas disponibles, mediante un sistema que:
+
+- Registra bicicletas disponibles para renta.
+- Gestiona reservas evitando conflictos de horario.
+- Aplica cobros correctos según la duración del uso.
+- Controla el estado de cada bicicleta.
+
+## Estructura del proyecto
+
+- `bicicleta.py`: Clase y lógica para bicicletas.
+- `reserva.py`: Clase y lógica para reservas.
+- `main.py`: Menú principal y flujo de la aplicación.
+
+## Ejecución
+
+Ejecuta el sistema con:
+
+```sh
+python main.py
+```
+
+## Requerimientos
+
+- Python 3.x
+
+## Manejo de excepciones
+
+El sistema utiliza excepciones personalizadas y bloques try/except para validar entradas y evitar errores comunes.
+
+## Autores
+
+Equipo BIKECITY Bootcamp Python
+
 Ejercicio grupal
 Contexto
 
